@@ -53,3 +53,43 @@ git diff --staged
 Zeigt Änderungen, die zum nächsten Commit vorbereitet sind.
 
 ---
+
+## Remote verwalten
+
+### Remote hinzufügen  
+```bash
+git remote add origin <url>
+```
+Verknüpft dein lokales Repository mit einem Online-Repository.
+
+### Remote anzeigen  
+```bash
+git remote -v
+```
+Zeigt alle verbundenen Remote-Repositories an.
+
+### Änderungen pushen  
+```bash
+git push
+```
+Schickt deine lokalen Commits auf das Remote-Repository, damit andere sie sehen.
+
+### Ersten Push mit Upstream-Verknüpfung  
+```bash
+git push --set-upstream origin <branch>
+```
+Erstellt eine Verbindung zwischen lokalem Branch und Remote-Branch für zukünftige Pushes.
+
+### Änderungen holen (fetch)  
+```bash
+git fetch
+```
+Lädt neue Änderungen vom Remote-Repository, ohne sie zu übernehmen.
+
+### Änderungen holen und mergen (pull)  
+```bash
+git pull
+```
+Lädt neue Änderungen und fügt sie direkt in deinen aktuellen Branch ein.
+
+---
