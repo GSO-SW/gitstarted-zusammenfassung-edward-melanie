@@ -62,3 +62,19 @@ Zeigt alle Git-Einstellungen, die aktuell gelten.
 
 ---
 
+## Repository starten oder klonen
+
+### Neues Repository erstellen  
+```bash
+git init
+```
+Erstellt einen neuen Git-Ordner im aktuellen Projekt, damit du mit Versionskontrolle arbeiten kannst.
+
+### Repository klonen  
+```bash
+git clone <repo-url>
+```
+Lädt ein bestehendes Online-Repository herunter, damit du lokal damit arbeiten kannst.
+
+---
+
