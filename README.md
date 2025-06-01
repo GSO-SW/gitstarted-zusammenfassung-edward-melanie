@@ -32,3 +32,33 @@ Ein gespeicherter Moment in der Historie mit einer Nachricht, was geändert wurd
 Die komplette Aufzeichnung aller Änderungen an Dateien und Branches.
 
 ---
+
+## Git einrichten
+
+### Git installieren  
+Lade Git von [git-scm.com](https://git-scm.com) herunter und installiere es.
+
+### Benutzername und E-Mail konfigurieren  
+```bash
+git config --global user.name "Dein Name"
+```
+Legt deinen Namen fest, der bei jedem Commit angezeigt wird.
+```bash
+git config --global user.email "deine@email.de"
+```
+Legt deine E-Mail fest, die bei jedem Commit angezeigt wird.
+
+### Editor für Git setzen (optional)  
+```bash
+git config --global core.editor "code --wait"
+```
+Legt den Texteditor fest, den Git für Eingaben benutzt (z. B. für Commit-Nachrichten).
+
+### Konfiguration anzeigen  
+```bash
+git config --list
+```
+Zeigt alle Git-Einstellungen, die aktuell gelten.
+
+---
+
