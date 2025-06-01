@@ -113,3 +113,31 @@ Datei, in der du festlegst, welche Dateien oder Ordner Git nicht verfolgen soll 
 
 ---
 
+## Commits
+
+### Commit erstellen  
+```bash
+git commit -m "Nachricht"
+```
+Speichert alle vorbereiteten Änderungen dauerhaft im Repository mit einer kurzen Beschreibung.
+
+### Letzten Commit ändern  
+```bash
+git commit --amend
+```
+Ändert die letzte Commit-Nachricht oder fügt neue Änderungen hinzu, bevor du einen neuen Commit machst.
+
+### Letzten Commit rückgängig machen (soft)  
+```bash
+git reset --soft HEAD~1
+```
+Entfernt den letzten Commit, aber behält die Änderungen zum Bearbeiten.
+
+### Alles zurücksetzen (hard)  
+```bash
+git reset --hard
+```
+Verwirft alle Änderungen seit dem letzten Commit – sei vorsichtig, alles geht verloren!
+
+---
+
