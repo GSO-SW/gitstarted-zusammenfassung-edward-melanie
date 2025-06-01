@@ -78,3 +78,38 @@ Lädt ein bestehendes Online-Repository herunter, damit du lokal damit arbeiten 
 
 ---
 
+## Dateien verwalten
+
+### Status prüfen  
+```bash
+git status
+```
+Zeigt dir, welche Dateien geändert, neu oder bereit zum Speichern (gestaged) sind.
+
+### Dateien zur Staging Area hinzufügen  
+```bash
+git add <datei>
+```
+Bereitet eine einzelne Datei vor, um beim nächsten Commit gespeichert zu werden.
+```bash
+git add .
+```
+Bereitet alle geänderten Dateien vor.
+
+### Dateien aus Staging entfernen  
+```bash
+git reset <datei>
+```
+Entfernt eine Datei aus der Vorbereitung für den nächsten Commit, lässt sie aber unverändert.
+
+### Datei löschen  
+```bash
+git rm <datei>
+```
+Löscht eine Datei aus deinem Ordner und bereitet das Löschen für den nächsten Commit vor.
+
+### `.gitignore`  
+Datei, in der du festlegst, welche Dateien oder Ordner Git nicht verfolgen soll (z. B. Log-Dateien oder temporäre Dateien).
+
+---
+
