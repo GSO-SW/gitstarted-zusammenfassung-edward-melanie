@@ -93,3 +93,30 @@ git pull
 Lädt neue Änderungen und fügt sie direkt in deinen aktuellen Branch ein.
 
 ---
+## Temporäre Änderungen speichern
+
+### Änderungen stashen  
+```bash
+git stash
+```
+Speichert deine aktuellen Änderungen temporär weg, ohne sie zu committen.
+
+### Liste aller Stashes  
+```bash
+git stash list
+```
+Zeigt alle gespeicherten temporären Änderungen.
+
+### Stash anwenden  
+```bash
+git stash apply
+```
+Bringt die zuletzt gespeicherten Änderungen zurück in dein Arbeitsverzeichnis.
+
+### Stash anwenden und löschen  
+```bash
+git stash pop
+```
+Bringt Änderungen zurück und entfernt sie aus der Liste der gespeicherten Stashes.
+
+---
