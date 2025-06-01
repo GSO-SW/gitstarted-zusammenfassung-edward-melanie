@@ -120,3 +120,19 @@ git stash pop
 Bringt Änderungen zurück und entfernt sie aus der Liste der gespeicherten Stashes.
 
 ---
+
+## Hilfe und Version
+
+### Git Version anzeigen  
+```bash
+git --version
+```
+Zeigt die installierte Git-Version.
+
+### Hilfe zu einem Befehl anzeigen  
+```bash
+git help <befehl>
+```
+Zeigt die Anleitung zu einem Git-Befehl.
+
+---
