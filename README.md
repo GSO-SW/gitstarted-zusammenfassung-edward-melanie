@@ -141,3 +141,37 @@ Verwirft alle Änderungen seit dem letzten Commit – sei vorsichtig, alles geht
 
 ---
 
+## Branches verwalten
+
+### Branches anzeigen  
+```bash
+git branch
+```
+Listet alle vorhandenen Branches (Zweige) in deinem Projekt auf.
+
+### Neuen Branch erstellen  
+```bash
+git branch <name>
+```
+Erstellt einen neuen Zweig, um parallel zu arbeiten.
+
+### Branch wechseln  
+```bash
+git checkout <name>
+```
+Wechselt zu einem anderen Branch, um daran zu arbeiten.
+
+### Branch erstellen und wechseln  
+```bash
+git checkout -b <name>
+```
+Erstellt einen neuen Branch und wechselt direkt darauf.
+
+### Branch löschen  
+```bash
+git branch -d <name>
+```
+Löscht einen Branch, den du nicht mehr brauchst.
+
+---
+
