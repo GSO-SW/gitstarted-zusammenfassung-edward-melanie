@@ -179,7 +179,74 @@ Löscht einen Branch, den du nicht mehr brauchst.
 
 =======
 
+# Bewertung der Git-Zusammenfassung (Edward & Melanie)
 
+Eurer Zusammenfassung ist sehr umfangreich und ausführlich und lässt sich aufgrund der Formatierung gut lesen!
+
+## 1. Fachbegriffe
+
+**Erreichte Punkte:** 3
+
+**Begründung:**
+- Die Begriffe wie *Repository*, *Branch*, *Staging Area*, *Commit*, *Historie* usw. sind **korrekt** und **vollständig** erklärt.
+- Die Erklärungen wirken **eigenständig formuliert** und verständlich.
+- Die Begriffe sind **kontextualisiert** (z. B. mit Beispielen wie Branch für Feature-Arbeit).
+
+**Verbesserungsvorschläge:**
+- Bei „Historie“ könnte ein Hinweis ergänzt werden, wie man diese anzeigen kann (z. B. `git log`), um den Bezug zur Praxis zu verstärken.
+- Ergänze evtl. noch den Begriff „Merge“ oder „Merge Konflikt“.
+---
+
+## 2. Befehle lokale Arbeit
+
+**Erreichte Punkte:** 3
+
+**Begründung:**
+- Alle grundlegenden lokalen Git-Befehle (z. B. `git init`, `git status`, `git add`, `git commit`, `git reset`, `git rm`, `.gitignore`) sind **korrekt** beschrieben.
+- Die Aufzählung ist **vollständig** und **gut strukturiert**.
+- Es sind Hinweise enthalten, die die Lesbarkeit und Nützlichkeit erhöhen (z. B. Unterschiede zwischen `git add <datei>` und `git add .`).
+- Die Hinweise zur Installation von git sind passend und hilfreich!
+
+**Verbesserungsvorschläge:**
+- Eine Tabelle oder visuelle Gliederung zur Gruppierung nach „Änderungen vorbereiten“, „Änderungen speichern“, „Änderungen rückgängig machen“ könnte die Lesbarkeit zusätzlich verbessern.
+- Ein typischer Fehler oder Warnhinweis bei der Benutzung von `git reset --hard` wäre hilfreich für Einsteiger. Außerdem fehlt mir bei den reset-Befehlen die konkrete Darstellung, wie sich Working Directory, Staging Area und Repository verändern!
+
+---
+
+## 3. Befehle entfernte Arbeit
+
+**Erreichte Punkte:** 2
+
+**Begründung:**
+- Die Befehle zur Arbeit mit Remote-Repositories (`git remote add`, `git fetch`, `git pull`, `git push`, `--set-upstream`, etc.) sind **korrekt** und **vollständig** beschrieben.
+- Auch erweiterte Befehle wie `git stash`  sind enthalten – dies zeigt tiefere Auseinandersetzung.
+- Erklärungen sind **verständlich formuliert** und bieten einen Mehrwert.
+
+**Verbesserungsvorschläge:**
+- Es wäre hilfreich, auch typische Fehler oder Konfliktszenarien, z.B. bei `pull` oder `push` anzusprechen.
+- Ein einfaches Beispiel (z. B. `git push origin main`) hätte für Einsteiger den Einstieg noch praktischer gemacht.
+
+---
+
+## 4. Güte der Zusammenarbeit
+- **Erreichte Punkte:** 2
+**Begründung:** 
+- Es gibt einige (14) Commits, die in der Anzahl mehr sein sollten, aber regelmäßig erfolgt sind.
+- Die Commit-Nachrichten sind aussagekräftig und nachvollziehbar. Es wurde mit Branches gearbeitet, der Haupt-Branch enthält (fast) nur Merge-Commits. 
+
+---
+
+## Zusammenfassung
+
+| Kriterium              | Punkte (max. 3) |
+|------------------------|-----------------|
+| Fachbegriffe           | 3               |
+| Befehle lokale Arbeit  | 3               |
+| Befehle entfernte Arbeit | 2             |
+| Zusammenarbeit         | 2      |
+| **Gesamt**             | **10/12** |
+
+--> **83% --> gut (12 NP.)**
 
 
 
